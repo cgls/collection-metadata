@@ -768,7 +768,7 @@ LSWT is recognized internationally as an Essential Climate Variable (ECV) and co
                   <gml:description>9 days, 0:00:00 composite</gml:description>
                   <gml:name>dekad</gml:name>
                   <gml:beginPosition>2016-11-01</gml:beginPosition>
-                  <gml:endPosition>2023-12-31</gml:endPosition>
+                  <gml:endPosition>2025-12-31</gml:endPosition>
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
