@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geonet="http://www.fao.org/geonetwork" id="CGLSMetadata" xsi:schemaLocation="http://www.isotc211.org/2005/gmx https://www.isotc211.org/2005/gmx/gmx.xsd">
   <gmd:fileIdentifier>
-    <gco:CharacterString>clms_global_lc_10m_v1_yearly</gco:CharacterString>
+    <gco:CharacterString>lcfm-lcm_global_100m_yearly_v1</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
@@ -41,7 +41,7 @@
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>httpss://land.copernicus.eu/</gmd:URL>
+                <gmd:URL>https://land.copernicus.eu/</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>HTTP</gco:CharacterString>
@@ -90,10 +90,10 @@
             <gmd:MD_DimensionNameTypeCode codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row" />
           </gmd:dimensionName>
           <gmd:dimensionSize>
-            <gco:Integer>141120</gco:Integer>
+            <gco:Integer>171600</gco:Integer>
           </gmd:dimensionSize>
           <gmd:resolution>
-            <gco:Angle uom="deg">0.000992063492063</gco:Angle>
+            <gco:Angle uom="deg">0.000833333333333</gco:Angle>
           </gmd:resolution>
         </gmd:MD_Dimension>
       </gmd:axisDimensionProperties>
@@ -103,10 +103,10 @@
             <gmd:MD_DimensionNameTypeCode codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column" />
           </gmd:dimensionName>
           <gmd:dimensionSize>
-            <gco:Integer>362880</gco:Integer>
+            <gco:Integer>432000</gco:Integer>
           </gmd:dimensionSize>
           <gmd:resolution>
-            <gco:Angle uom="deg">0.000992063492063</gco:Angle>
+            <gco:Angle uom="deg">0.000833333333333</gco:Angle>
           </gmd:resolution>
         </gmd:MD_Dimension>
       </gmd:axisDimensionProperties>
@@ -173,7 +173,7 @@
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:Date>2020-01-01</gco:Date>
+                <gco:Date>2025-04-17</gco:Date>
               </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
@@ -184,7 +184,7 @@
             <gco:CharacterString>Version 1</gco:CharacterString>
           </gmd:edition>
           <gmd:editionDate>
-            <gco:Date>2019-05-14</gco:Date>
+            <gco:Date>2025-04-17</gco:Date>
           </gmd:editionDate>
           <gmd:identifier>
             <gmd:MD_Identifier>
@@ -206,7 +206,7 @@
                 </gmd:CI_Citation>
               </gmd:authority>
               <gmd:code>
-                <gco:CharacterString>clms_global_lc_100m_v1_yearly</gco:CharacterString>
+                <gco:CharacterString>lcfm-lcm_global_100m_yearly_v1</gco:CharacterString>
               </gmd:code>
             </gmd:MD_Identifier>
           </gmd:identifier>
@@ -216,17 +216,13 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Land cover maps represent spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands. 
-
-This product includes the global land cover map, at 100m resolution, for base year 2020. These consist of two different layers: the base classification with 12 classes and fractional cover (0-100% per pixel) for the main classes.
-
-This product is designed as a follow-up to the Global Dynamic Land Cover map product at 100 m spatial resolution, but being based on Sentinel-2 instead of PROBAV.</gco:CharacterString>
+        <gco:CharacterString>This product is delivered by the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring service (LCFM), part of the Copernicus Land Monitoring Service (CLMS), and provides global land cover data at 100-meter resolution for the year 2020. This product is a continuation of the Global Dynamic Land Cover map at 100 m spatial resolution available for the years 2015–2019, but it uses different input data (Sentinel-1 and Sentinel-2 instead of Proba-V) and a different classification algorithm.</gco:CharacterString>
       </gmd:abstract>
       <gmd:purpose>
-        <gco:CharacterString>This product is first designed to fit the requirements of the Copernicus Land Service. It can be also useful for all applications related to the environmental monitoring.</gco:CharacterString>
+        <gco:CharacterString>This product is delivered by the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring service (LCFM), part of the Copernicus Land Monitoring Service (CLMS), and provides global land cover data at 100-meter resolution for the year 2020. Aligned with the Copernicus open data policy, it offers free, reliable, and accessible information to support environmental policy-making and informed decision-making.</gco:CharacterString>
       </gmd:purpose>
       <gmd:credit>
-        <gco:CharacterString>Land Cover products were generated by the Land Service of Copernicus, the Earth Observation programme of the European Commission. The product is based on Sentinel-1, Sentinel-2 and Copernicus DEM (copyright by ESA), as well as renowned external datasets (e.g. AgERA5 by ECMWF).</gco:CharacterString>
+        <gco:CharacterString>This product is delivered by the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring service (LCFM), part of the Copernicus Land Monitoring Service (CLMS), and provides global land cover data at 100-meter resolution for the year 2020. This product is mainly based on data from Copernicus Sentinel-1 and Sentinel-2 satellites, a global training dataset, and several auxiliary layers, including the Copernicus DEM and AgERA5 meteorological data.</gco:CharacterString>
       </gmd:credit>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" />
@@ -721,7 +717,7 @@ This product is designed as a follow-up to the Global Dynamic Land Cover map pro
       <gmd:spatialResolution>
         <gmd:MD_Resolution>
           <gmd:distance>
-            <gco:Distance uom="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/uom/ML_gmxUom.xml#deg">0.000992063492063</gco:Distance>
+            <gco:Distance uom="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/uom/ML_gmxUom.xml#deg">0.000833333333333</gco:Distance>
           </gmd:distance>
         </gmd:MD_Resolution>
       </gmd:spatialResolution>
@@ -871,6 +867,57 @@ This product is designed as a follow-up to the Global Dynamic Land Cover map pro
           </gmd:distributionOrderProcess>
         </gmd:MD_Distributor>
       </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:unitsOfDistribution>
+            <gco:CharacterString>Per product</gco:CharacterString>
+          </gmd:unitsOfDistribution>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://browser.dataspace.copernicus.eu/</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTPS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Copernicus Data Space Ecosystem - Copernicus Browser</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>1. View the land cover layers and download in 30 degree tiles</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <!--
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://zenodo.org/communities/copernicus-land-cover</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Zenodo - Copernicus Land Cover Land Use community</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>2. Download as single global files</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      -->
     </gmd:MD_Distribution>
   </gmd:distributionInfo>
   <gmd:dataQualityInfo>
@@ -882,7 +929,8 @@ This product is designed as a follow-up to the Global Dynamic Land Cover map pro
           </gmd:level>
         </gmd:DQ_Scope>
       </gmd:scope>
-      <gmd:report>
+      <!--
+      <gmd:report>        
         <gmd:DQ_NonQuantitativeAttributeAccuracy>
           <gmd:result>
             <gmd:DQ_ConformanceResult>
@@ -913,6 +961,7 @@ This product is designed as a follow-up to the Global Dynamic Land Cover map pro
           </gmd:result>
         </gmd:DQ_NonQuantitativeAttributeAccuracy>
          </gmd:report>
+         -->
          <gmd:report>
 				<gmd:DQ_DomainConsistency>
 					<gmd:result>
@@ -980,8 +1029,7 @@ This product is designed as a follow-up to the Global Dynamic Land Cover map pro
       <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:statement>
-            <gco:CharacterString>The land cover map is classified from surface reflectances of Sentinel-2's MSI sensor and gamma0 backscatter of Sentinel-1's SAR, with training data gathered through the GEO-WIKI. 
-The land cover is provided at 100 m resolution, however the input data is data is gathered at 10m resolution which has enabled to generate the continuous cover fields and provide per pixel a cover percentage (0-100%) for a set of classes.</gco:CharacterString>
+            <gco:CharacterString>This product is mainly based on data from Copernicus Sentinel-1 and Sentinel-2 satellites, a global training dataset, and several auxiliary layers, including the Copernicus DEM and AgERA5 meteorological data.</gco:CharacterString>
           </gmd:statement>
         </gmd:LI_Lineage>
       </gmd:lineage>
