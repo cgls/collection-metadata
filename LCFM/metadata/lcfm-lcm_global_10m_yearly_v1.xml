@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geonet="http://www.fao.org/geonetwork" id="CGLSMetadata" xsi:schemaLocation="http://www.isotc211.org/2005/gmx https://www.isotc211.org/2005/gmx/gmx.xsd">
   <gmd:fileIdentifier>
-    <gco:CharacterString>lcfm-lcm_global_100m_yearly_v1</gco:CharacterString>
+    <gco:CharacterString>lcfm-lcm_global_10m_yearly_v1</gco:CharacterString>
   </gmd:fileIdentifier>
   <gmd:language>
     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
@@ -90,10 +90,10 @@
             <gmd:MD_DimensionNameTypeCode codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row" />
           </gmd:dimensionName>
           <gmd:dimensionSize>
-            <gco:Integer>171600</gco:Integer>
+            <gco:Integer>1644000</gco:Integer>
           </gmd:dimensionSize>
           <gmd:resolution>
-            <gco:Angle uom="deg">0.000833333333333</gco:Angle>
+            <gco:Angle uom="deg">0.00833333333333</gco:Angle>
           </gmd:resolution>
         </gmd:MD_Dimension>
       </gmd:axisDimensionProperties>
@@ -103,10 +103,10 @@
             <gmd:MD_DimensionNameTypeCode codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column" />
           </gmd:dimensionName>
           <gmd:dimensionSize>
-            <gco:Integer>432000</gco:Integer>
+            <gco:Integer>4320000</gco:Integer>
           </gmd:dimensionSize>
           <gmd:resolution>
-            <gco:Angle uom="deg">0.000833333333333</gco:Angle>
+            <gco:Angle uom="deg">0.00833333333333</gco:Angle>
           </gmd:resolution>
         </gmd:MD_Dimension>
       </gmd:axisDimensionProperties>
@@ -206,7 +206,7 @@
                 </gmd:CI_Citation>
               </gmd:authority>
               <gmd:code>
-                <gco:CharacterString>lcfm-lcm_global_100m_yearly_v1</gco:CharacterString>
+                <gco:CharacterString>lcfm-lcm_global_10m_yearly_v1</gco:CharacterString>
               </gmd:code>
             </gmd:MD_Identifier>
           </gmd:identifier>
@@ -216,13 +216,13 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>This product is delivered by the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring service (LCFM), part of the Copernicus Land Monitoring Service (CLMS), and provides global land cover data at 100-meter resolution for the year 2020. This product is a continuation of the Global Dynamic Land Cover map at 100 m spatial resolution available for the years 2015–2019, but it uses different input data (Sentinel-1 and Sentinel-2 instead of Proba-V) and a different classification algorithm.</gco:CharacterString>
+        <gco:CharacterString>This product is delivered by the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring service (LCFM), part of the Copernicus Land Monitoring Service (CLMS), and provides global land cover data at 10-meter resolution for the year 2020.</gco:CharacterString>
       </gmd:abstract>
       <gmd:purpose>
-        <gco:CharacterString>This product is delivered by the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring service (LCFM), part of the Copernicus Land Monitoring Service (CLMS), and provides global land cover data at 100-meter resolution for the year 2020. Aligned with the Copernicus open data policy, it offers free, reliable, and accessible information to support environmental policy-making and informed decision-making.</gco:CharacterString>
+        <gco:CharacterString>This product is delivered by the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring service (LCFM), part of the Copernicus Land Monitoring Service (CLMS), and provides global land cover data at 10-meter resolution for the year 2020. Aligned with the Copernicus open data policy, it offers free, reliable, and accessible information to support environmental policy-making and informed decision-making.</gco:CharacterString>
       </gmd:purpose>
       <gmd:credit>
-        <gco:CharacterString>This product is delivered by the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring service (LCFM), part of the Copernicus Land Monitoring Service (CLMS), and provides global land cover data at 100-meter resolution for the year 2020. This product is mainly based on data from Copernicus Sentinel-1 and Sentinel-2 satellites, a global training dataset, and several auxiliary layers, including the Copernicus DEM and AgERA5 meteorological data.</gco:CharacterString>
+        <gco:CharacterString>This product is delivered by the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring service (LCFM), part of the Copernicus Land Monitoring Service (CLMS), and provides global land cover data at 10-meter resolution for the year 2020. This product is mainly based on data from Copernicus Sentinel-1 and Sentinel-2 satellites, a global training dataset, and several auxiliary layers, including the Copernicus DEM and AgERA5 meteorological data.</gco:CharacterString>
       </gmd:credit>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" />
@@ -717,7 +717,7 @@
       <gmd:spatialResolution>
         <gmd:MD_Resolution>
           <gmd:distance>
-            <gco:Distance uom="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/uom/ML_gmxUom.xml#deg">0.000833333333333</gco:Distance>
+            <gco:Distance uom="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/uom/ML_gmxUom.xml#deg">0.00833333333333</gco:Distance>
           </gmd:distance>
         </gmd:MD_Resolution>
       </gmd:spatialResolution>
@@ -884,7 +884,7 @@
                 <gco:CharacterString>Copernicus Data Space Ecosystem - Copernicus Browser</gco:CharacterString>
               </gmd:name>
               <gmd:description>
-                <gco:CharacterString>1. View the land cover layers and download in 30 degree tiles</gco:CharacterString>
+                <gco:CharacterString>1. View the land cover layers and download in 20 degree tiles</gco:CharacterString>
               </gmd:description>
               <gmd:applicationProfile>
                 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/view">View Service</gmx:Anchor>
