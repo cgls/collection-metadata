@@ -1,4 +1,4 @@
-# INSPIRE Metadata Repository
+# CLMS INSPIRE Metadata Repository
 
 This repository contains metadata files compliant with the INSPIRE (Infrastructure for Spatial Information in Europe) directive for geospatial datasets. The metadata follows ISO 19115/19139 standards and is stored in XML format.
 
@@ -45,9 +45,9 @@ Example metadata elements include:
 ### Adding New Metadata
 
 1. Identify the appropriate directory for your dataset type
-2. Use a template from the `templates/` directory if available
+2. ~~Use a template from the `templates/` directory if available~~
 3. Generate the XML metadata file following INSPIRE requirements
-4. Validate the file using the validation scripts provided
+4. Validate the file using the validation tool
 5. Add the file to the repository with a descriptive commit message
 
 ### Updating Existing Metadata
@@ -61,7 +61,7 @@ Example metadata elements include:
 
 Metadata files should be named according to the following pattern:
 ```
-[data_provider]_[dataset_name]_[version].xml
+clms_[dataset_name]_[version].xml
 ```
 
 Example: `clms_global_ba_300m_v3_daily.xml`
