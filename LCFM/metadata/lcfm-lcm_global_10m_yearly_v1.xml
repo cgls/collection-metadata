@@ -22,16 +22,16 @@
           <gmd:address>
             <gmd:CI_Address>
               <gmd:deliveryPoint>
-                <gco:CharacterString>Boeretang 200</gco:CharacterString>
+                <gco:CharacterString>Kongens Nytorv 6</gco:CharacterString>
               </gmd:deliveryPoint>
               <gmd:city>
-                <gco:CharacterString>Mol</gco:CharacterString>
+                <gco:CharacterString>Copenhagen</gco:CharacterString>
               </gmd:city>
               <gmd:postalCode>
-                <gco:CharacterString>2400</gco:CharacterString>
+                <gco:CharacterString>1050</gco:CharacterString>
               </gmd:postalCode>
               <gmd:country>
-                <gmd:Country codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#Country" codeListValue="BE" codeSpace="ISO 3166-1" />
+                <gmd:Country codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#Country" codeListValue="DE" codeSpace="ISO 3166-1" />
               </gmd:country>
               <gmd:electronicMailAddress>
                 <gco:CharacterString>copernicus@eea.europa.eu</gco:CharacterString>
