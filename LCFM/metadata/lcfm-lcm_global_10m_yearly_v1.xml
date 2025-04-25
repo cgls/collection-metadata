@@ -168,7 +168,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Land Cover 2020 (raster 100 m), global, annual - version 1</gco:CharacterString>
+            <gco:CharacterString>Land Cover 2020 (raster 10 m), global, annual - version 1</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
