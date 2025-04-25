@@ -90,7 +90,7 @@
             <gmd:MD_DimensionNameTypeCode codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row" />
           </gmd:dimensionName>
           <gmd:dimensionSize>
-            <gco:Integer>1644000</gco:Integer>
+            <gco:Integer>1716000</gco:Integer>
           </gmd:dimensionSize>
           <gmd:resolution>
             <gco:Angle uom="deg">0.0000833333333333</gco:Angle>
@@ -884,7 +884,7 @@
                 <gco:CharacterString>Copernicus Data Space Ecosystem - Copernicus Browser</gco:CharacterString>
               </gmd:name>
               <gmd:description>
-                <gco:CharacterString>1. View the land cover layers and download in 20 degree tiles</gco:CharacterString>
+                <gco:CharacterString>1. View the land cover layers and download in 3 degree tiles</gco:CharacterString>
               </gmd:description>
               <gmd:applicationProfile>
                 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/view">View Service</gmx:Anchor>
