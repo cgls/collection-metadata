@@ -93,7 +93,7 @@
             <gco:Integer>1644000</gco:Integer>
           </gmd:dimensionSize>
           <gmd:resolution>
-            <gco:Angle uom="deg">0.00833333333333</gco:Angle>
+            <gco:Angle uom="deg">0.0000833333333333</gco:Angle>
           </gmd:resolution>
         </gmd:MD_Dimension>
       </gmd:axisDimensionProperties>
@@ -106,7 +106,7 @@
             <gco:Integer>4320000</gco:Integer>
           </gmd:dimensionSize>
           <gmd:resolution>
-            <gco:Angle uom="deg">0.00833333333333</gco:Angle>
+            <gco:Angle uom="deg">0.0000833333333333</gco:Angle>
           </gmd:resolution>
         </gmd:MD_Dimension>
       </gmd:axisDimensionProperties>
@@ -717,7 +717,7 @@
       <gmd:spatialResolution>
         <gmd:MD_Resolution>
           <gmd:distance>
-            <gco:Distance uom="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/uom/ML_gmxUom.xml#deg">0.00833333333333</gco:Distance>
+            <gco:Distance uom="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/uom/ML_gmxUom.xml#deg">0.0000833333333333</gco:Distance>
           </gmd:distance>
         </gmd:MD_Resolution>
       </gmd:spatialResolution>
