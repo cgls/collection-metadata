@@ -240,7 +240,7 @@
               <gmd:address>
                 <gmd:CI_Address>
                   <gmd:deliveryPoint>
-                    <gco:CharacterString>Boeretang 280</gco:CharacterString>
+                    <gco:CharacterString>Boeretang 200</gco:CharacterString>
                   </gmd:deliveryPoint>
                   <gmd:city>
                     <gco:CharacterString>Mol</gco:CharacterString>
