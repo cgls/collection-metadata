@@ -15,26 +15,26 @@
   <gmd:contact>
     <gmd:CI_ResponsibleParty>
       <gmd:organisationName>
-        <gco:CharacterString>VITO NV</gco:CharacterString>
+        <gco:CharacterString>Copernicus Land Monitoring Service helpdesk</gco:CharacterString>
       </gmd:organisationName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
           <gmd:address>
             <gmd:CI_Address>
               <gmd:deliveryPoint>
-                <gco:CharacterString>Boeretang 200</gco:CharacterString>
+                <gco:CharacterString>Kongens Nytorv 6</gco:CharacterString>
               </gmd:deliveryPoint>
               <gmd:city>
-                <gco:CharacterString>Mol</gco:CharacterString>
+                <gco:CharacterString>Copenhagen</gco:CharacterString>
               </gmd:city>
               <gmd:postalCode>
-                <gco:CharacterString>2400</gco:CharacterString>
+                <gco:CharacterString>1050</gco:CharacterString>
               </gmd:postalCode>
               <gmd:country>
-                <gmd:Country codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#Country" codeListValue="BE" codeSpace="ISO 3166-1" />
+                <gmd:Country codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#Country" codeListValue="DE" codeSpace="ISO 3166-1" />
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>helpdeskticket@vgt.vito.be</gco:CharacterString>
+                <gco:CharacterString>copernicus@eea.europa.eu</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -90,10 +90,10 @@
             <gmd:MD_DimensionNameTypeCode codeList="https://standards.iso.org/iso/19139/resources/ML_gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row" />
           </gmd:dimensionName>
           <gmd:dimensionSize>
-            <gco:Integer>1644000</gco:Integer>
+            <gco:Integer>1716000</gco:Integer>
           </gmd:dimensionSize>
           <gmd:resolution>
-            <gco:Angle uom="deg">0.00833333333333</gco:Angle>
+            <gco:Angle uom="deg">0.0000833333333333</gco:Angle>
           </gmd:resolution>
         </gmd:MD_Dimension>
       </gmd:axisDimensionProperties>
@@ -106,7 +106,7 @@
             <gco:Integer>4320000</gco:Integer>
           </gmd:dimensionSize>
           <gmd:resolution>
-            <gco:Angle uom="deg">0.00833333333333</gco:Angle>
+            <gco:Angle uom="deg">0.0000833333333333</gco:Angle>
           </gmd:resolution>
         </gmd:MD_Dimension>
       </gmd:axisDimensionProperties>
@@ -168,7 +168,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Land Cover 2020 (raster 100 m), global, annual - version 1</gco:CharacterString>
+            <gco:CharacterString>Land Cover 2020 (raster 10 m), global, annual - version 1</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -240,7 +240,7 @@
               <gmd:address>
                 <gmd:CI_Address>
                   <gmd:deliveryPoint>
-                    <gco:CharacterString>Boeretang 280</gco:CharacterString>
+                    <gco:CharacterString>Boeretang 200</gco:CharacterString>
                   </gmd:deliveryPoint>
                   <gmd:city>
                     <gco:CharacterString>Mol</gco:CharacterString>
@@ -717,7 +717,7 @@
       <gmd:spatialResolution>
         <gmd:MD_Resolution>
           <gmd:distance>
-            <gco:Distance uom="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/uom/ML_gmxUom.xml#deg">0.00833333333333</gco:Distance>
+            <gco:Distance uom="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/uom/ML_gmxUom.xml#deg">0.0000833333333333</gco:Distance>
           </gmd:distance>
         </gmd:MD_Resolution>
       </gmd:spatialResolution>
@@ -884,7 +884,7 @@
                 <gco:CharacterString>Copernicus Data Space Ecosystem - Copernicus Browser</gco:CharacterString>
               </gmd:name>
               <gmd:description>
-                <gco:CharacterString>1. View the land cover layers and download in 20 degree tiles</gco:CharacterString>
+                <gco:CharacterString>1. View the land cover layers and download in 3 degree tiles</gco:CharacterString>
               </gmd:description>
               <gmd:applicationProfile>
                 <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/view">View Service</gmx:Anchor>
