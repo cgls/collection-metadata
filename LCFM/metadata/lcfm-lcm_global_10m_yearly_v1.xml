@@ -59,10 +59,10 @@
             <gmd:MD_DimensionNameTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row"/>
           </gmd:dimensionName>
           <gmd:dimensionSize>
-            <gco:Integer>1644000</gco:Integer>
+            <gco:Integer>1716000</gco:Integer>
           </gmd:dimensionSize>
           <gmd:resolution>
-            <gco:Angle uom="deg">0.00833333333333</gco:Angle>
+            <gco:Angle uom="deg">0.0000833333333333</gco:Angle>
           </gmd:resolution>
         </gmd:MD_Dimension>
       </gmd:axisDimensionProperties>
@@ -75,7 +75,7 @@
             <gco:Integer>4320000</gco:Integer>
           </gmd:dimensionSize>
           <gmd:resolution>
-            <gco:Angle uom="deg">0.00833333333333</gco:Angle>
+            <gco:Angle uom="deg">0.0000833333333333</gco:Angle>
           </gmd:resolution>
         </gmd:MD_Dimension>
       </gmd:axisDimensionProperties>
@@ -120,7 +120,7 @@
 <gmd:citation>
 <gmd:CI_Citation>
 <gmd:title>
-<gco:CharacterString>Land Cover 2020 (raster 100 m), global, annual - version 1</gco:CharacterString>
+<gco:CharacterString>Land Cover 2020 (raster 10 m), global, annual - version 1</gco:CharacterString>
 </gmd:title>
 <gmd:date>
 <gmd:CI_Date>
@@ -629,7 +629,7 @@
 <gmd:spatialResolution>
 <gmd:MD_Resolution>
 <gmd:distance>
-<gco:Distance uom="https://www.isotc211.org/2005/resources/uom/gmxUom.xml#deg">0.00833333333333</gco:Distance>
+<gco:Distance uom="https://www.isotc211.org/2005/resources/uom/gmxUom.xml#deg">0.0000833333333333</gco:Distance>
 </gmd:distance>
 </gmd:MD_Resolution>
 </gmd:spatialResolution>
